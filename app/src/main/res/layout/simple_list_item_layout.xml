@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/rankNum"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:textColor="@android:color/black"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/idName"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/lastTime"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        />
+</LinearLayout>

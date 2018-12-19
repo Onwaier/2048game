@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">2048</string>
+    <string name="welcome">欢迎来到2048</string>
+    <string name="current_score">SCORE</string>
+    <string name="best_score">HIGH</string>
+    <string name="startBtn">START</string>
+    <string name="pauseBtn">PAUSE</string>
+    <string name="stopBtn">STOP</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="id_name">昵称</string>
+    <string name="rank1">2048数字版4×4</string>
+    <string name="rank2">2048数字版5×5</string>
+    <string name="rank3">2048数字版6×6</string>
+    <string name="rank4">2048Bleach版</string>
+    <string name="rank5">2048Moon版</string>
+    <string name="score_rank">排行榜</string>
+    <string name="choose_model">请选择你喜欢的模式！</string>
+
+</resources>

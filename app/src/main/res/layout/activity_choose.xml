@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.onwaier.game2048pic.ChooseActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/choose_model"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_marginTop="20dp"/>
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.onwaier.game2048pic.ChooseActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/background">
+        <LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/Btn4x4"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/welcome"
+                android:src="@drawable/num2048_model4">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/Btn5x5"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/welcome"
+                android:src="@drawable/num2048_model5">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/Btn6x6"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:contentDescription = "@string/welcome"
+                android:src ="@drawable/num2048_model6"
+                android:layout_margin="10dp">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/BleachBtn"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:contentDescription = "@string/welcome"
+                android:src ="@drawable/bleach_2048"
+                android:layout_margin="10dp">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/MoonBtn"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:contentDescription = "@string/welcome"
+                android:src ="@drawable/moon_2048"
+                android:layout_margin="10dp">
+            </ImageView>
+
+        </LinearLayout>
+</HorizontalScrollView>
+
+</LinearLayout>
+
